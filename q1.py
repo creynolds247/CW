@@ -8,7 +8,7 @@ def input():
         distance.append(float(raw_input("Disance for "+id[i])))
         if distance[i]<0:
 
-            print "Error disance cannot be less than 0"
+            print "Error distance cannot be less than 0"
             exit(0)
 
 
@@ -36,7 +36,8 @@ def Main():
         tmp=Calculation(float(distance[i]), float(speed[i]))
         timetaken.append(tmp)
         print "%10s %15.2f"%(id[i],tmp)
-        
+        
+
 
 
     print ""
